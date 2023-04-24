@@ -25,6 +25,6 @@ class Matrix:
         for i in range(N):
             S = 0
             for j in range(N):
-                S += self.A[i][j] * vec[i][j]
+                S += self.A[i][j] * vec[j]
             u[i] = S
         return u

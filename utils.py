@@ -2,6 +2,7 @@ import math
 
 from Matrix import Matrix
 
+# 171980
 N = 980
 
 
@@ -15,5 +16,5 @@ def residual(A: Matrix, b, x):
 def norm(v):
     n = 0
     for i in range(N):
-        n += v[i] ** 2
+        n += (v[i] ** 2)
     return math.sqrt(n)
